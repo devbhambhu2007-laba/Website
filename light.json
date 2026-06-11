@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"title": "Light",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "background", "name": "Background", "color": "#f6f2df" },
+				{ "slug": "background-strong", "name": "Background Strong", "color": "#c8f1ea" },
+				{ "slug": "surface", "name": "Surface", "color": "#fffef4" },
+				{ "slug": "surface-soft", "name": "Surface Soft", "color": "#efe8c7" },
+				{ "slug": "ink", "name": "Ink", "color": "#102337" },
+				{ "slug": "muted", "name": "Muted", "color": "#445867" },
+				{ "slug": "line", "name": "Line", "color": "#6b6a5f" },
+				{ "slug": "accent", "name": "Accent", "color": "#00778f" },
+				{ "slug": "accent-strong", "name": "Accent Strong", "color": "#005f73" },
+				{ "slug": "blue", "name": "Blue", "color": "#006f91" },
+				{ "slug": "rose", "name": "Rose", "color": "#b7353b" },
+				{ "slug": "warm", "name": "Warm", "color": "#fff6dd" },
+				{ "slug": "highlight", "name": "Highlight", "color": "#ffc440" },
+				{ "slug": "coral", "name": "Coral", "color": "#f76568" },
+				{ "slug": "orange", "name": "Orange", "color": "#ffb93f" },
+				{ "slug": "white", "name": "White", "color": "#fffef4" }
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var:preset|color|background",
+			"text": "var:preset|color|ink"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var:preset|color|accent-strong"
+				}
+			}
+		}
+	}
+}
