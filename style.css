@@ -1,0 +1,20 @@
+/*
+Theme Name: Reclaim the Web
+Theme URI: https://tangled.org/ryancowl.es/reclaim-the-web
+Author: Ryan Cowles
+Author URI: https://read.ryancowl.es
+Description: A block theme for standalone blogs and social-media-aware publishing sites with open-social starter patterns, style variations, and light/dark modes.
+Version: 0.1.1
+Requires at least: 6.6
+Tested up to: 7.0
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: reclaim-the-web
+Tags: blog, block-patterns, full-site-editing, style-variations, editor-style, custom-colors, custom-logo, post-formats, sticky-post
+*/
+
+/*
+ * WordPress requires this stylesheet for theme recognition. The production
+ * styles live in assets/css/theme.css so they can be loaded in the editor too.
+ */
